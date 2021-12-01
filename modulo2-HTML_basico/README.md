@@ -3,7 +3,7 @@ Além do que foi pedido, adicionei imagens com links para redes sociais que ache
 
 Este era o modelo proposto:
 
-![alt text](
+![alt text](https://github.com/Jops-Garcia/ProgramadorBR_Desafios/blob/main/modulo2-HTML_basico/Modelo.jpg)
 
 
 
