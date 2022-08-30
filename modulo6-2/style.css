@@ -1,0 +1,75 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    color: #555
+}
+.top-bar{
+    background-color: #333;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    padding: 8px;
+    border-bottom: 5px solid #fd8a24;
+}
+h1,h2{
+   color: #111
+}
+.author{
+    font-weight: bold;
+    font-size: 0.8em;
+}
+sub{
+    font-weight:100;
+}
+.container{
+    max-width: 888px;
+    margin: auto;
+    padding: 30px;
+}
+.headline{
+    font-size: 56px;
+    /* tamanho da fonte +8 me da uma altura boa */
+    line-height:64px;
+}
+.subtitle{
+    font-weight: normal;
+    font-weight: 20px;
+}
+.social{
+    margin-top: 10px;
+}
+.socialIcons{
+    width: 20px;
+    padding: 10px 10px 10px 0;
+}
+.content{
+    max-width: 684px;
+    margin: auto;
+}
+p{
+   font-size: 20px;
+   line-height:32px;  
+}
+a{
+    text-decoration: none;
+    font-weight: 700;
+    color:#fd8a24
+}
+.cta{
+    font-size: 20px;
+    margin: 30px 0;
+}
+figure{
+    padding: 0;
+    margin: 40px 0;
+    font-size: 12px;
+}
+figure>img{
+    width: 100%;
+}
+footer{
+    background-color: #333;
+    height: 100px
+}
