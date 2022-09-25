@@ -6,4 +6,4 @@ Na pasta do modulo está o respectivo desafio proposto.
 
 
 
-Chalanges done at ProgramadorBR course.
+Chalanges done at ProgramadorBR classes.
