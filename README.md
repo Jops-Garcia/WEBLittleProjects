@@ -5,5 +5,8 @@ Tenha em mente que este é um repo de estudos e atividades realizadas na época 
 Na pasta do modulo está o respectivo desafio proposto.
 
 
+Github pages: https://jops-garcia.github.io/ProgramadorBR_Desafios/
+
+
 
 Chalanges done at ProgramadorBR classes.
