@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorteador</title>
+    
+    <script>
+        function sortear(){
+            let qtd =document.getElementById("num").value - 1;
+            console.log(qtd);
+            let s = Math.round(Math.random()*qtd+1);
+            if (s==0)
+            {
+                sortear();
+            }
+            document.getElementById("numero");
+            numero.innerHTML = s;
+        }
+    </script>
+</head>
+<body>
+    <div id="content">
+        <h1>Quantidade de pessoas na Rifa</h1>
+        <input type="number" id="num" name="Quantidade de pessoas na Rifa" min="2" value="2">
+        <h1>rifa sorteada: <span id="numero"></h1></h1>
+        <button onclick="sortear()">Sortear</button>
+     </div>
+</body>
+</html>
