@@ -24,18 +24,30 @@
             background-color: #8fbfb9;
         }
        .content{
-        max-width: 300px;
-        margin: auto;
-        background-color: #d4f7dc;
-        padding: 20px;
-}
+            font-family: Arial, Helvetica, sans-serif;
+            max-width: 300px;
+            margin: auto;
+            background-color: #d4f7dc;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        h1{
+            margin-top: 0;
+        }
+        input{
+            width: 100%;
+            display:block;
+            padding: 5px;
+            box-sizing: border-box;
+            margin-bottom:10px;
+        }
     </style>
 </head>
 <body>
     <div class="content">
         <h1>Quantidade de pessoas na Rifa</h1>
         <input type="number" id="num" name="qtd" min="2" value="2">
-        <h1>rifa sorteada: <span id="numero"></h1></h1>
+        <h1>Rifa sorteada: <span id="numero"></h1></h1>
         <button onclick="sortear()">Sortear</button>
      </div>
 </body>
