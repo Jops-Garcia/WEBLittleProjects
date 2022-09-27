@@ -21,16 +21,20 @@
     </script>
     <style type="text/css">
         body{
-        max-width: 50%;
-        margin: auto;
-        padding: auto;
+            background-color: #8fbfb9;
         }
+       .content{
+        max-width: 300px;
+        margin: auto;
+        background-color: #d4f7dc;
+        padding: 20px;
+}
     </style>
 </head>
 <body>
-    <div id="content">
+    <div class="content">
         <h1>Quantidade de pessoas na Rifa</h1>
-        <input type="number" id="num" name="Quantidade de pessoas na Rifa" min="2" value="2">
+        <input type="number" id="num" name="qtd" min="2" value="2">
         <h1>rifa sorteada: <span id="numero"></h1></h1>
         <button onclick="sortear()">Sortear</button>
      </div>
