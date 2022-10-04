@@ -1,0 +1,43 @@
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color:#89b399;
+    text-align:center;
+}
+
+.square{
+    width: 100px;
+    height: 100px;
+    background-color:#bcbfa3;
+    border:1px solid #6e6460;
+    display: inline-block;
+}
+.o{
+    position: relative;
+}
+.o::after{
+    position: absolute;
+    content: "\1F6E1";
+    font-size: 50px;
+    line-height:100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.x{
+    position: relative;
+}
+.x::after{
+    position: absolute;
+    content: "\2694";
+    font-size: 50px;
+    line-height:100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
