@@ -5,7 +5,7 @@ Tenha em mente que este é um repo de estudos e atividades realizadas na época 
 Na pasta do modulo está o respectivo desafio proposto.
 
 
-Github pages: https://jops-garcia.github.io/WEB/
+Github pages: https://jops-garcia.github.io/WEBLittleProjects/
 
 
 
